@@ -23,7 +23,7 @@ else if (cislo1 < cislo2)
 else
 {
     Console.ForegroundColor = ConsoleColor.Red;
-    Console.WriteLine("Neznámá chyba");
+    Console.WriteLine("Čísla jsou shodná...");
     Console.ResetColor();
 
 }
