@@ -1,6 +1,6 @@
 ﻿using System;
+ 
 
-//special funkce
 
 
 //zadání čísel
