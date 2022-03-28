@@ -1,6 +1,10 @@
 ﻿using System;
- 
 
+//ahojky
+void cervena()
+{
+    Console.BackgroundColor = ConsoleColor.DarkRed;
+}
 
 
 //zadání čísel
@@ -45,7 +49,7 @@ else
                 Console.BackgroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine($"1. číslo = {cislo1}");
                 Console.ResetColor();
-                Console.BackgroundColor = ConsoleColor.DarkRed;
+                cervena();
                 Console.WriteLine($"2. číslo = {cislo2}");
                 Console.ResetColor();
             }
@@ -55,7 +59,7 @@ else
                 Console.WriteLine("Číslo jdou od největšího po nejmenší:");
                 Console.ResetColor();
                 Console.WriteLine();
-                Console.BackgroundColor = ConsoleColor.DarkRed;
+                cervena();
                 Console.WriteLine($"2. číslo = {cislo2}");
                 Console.ResetColor();
                 Console.BackgroundColor = ConsoleColor.DarkGreen;
